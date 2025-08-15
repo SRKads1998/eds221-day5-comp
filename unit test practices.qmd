@@ -55,3 +55,12 @@ if ((mean_range(mtcars)[1] < mean_range(mtcars)[2]) {
   stop()
 }
 ```
+```{r}
+# source our food cart functions
+source(here::here("src", "food_cart_functions.R"))
+
+# Test running function
+name_cart(food = "strawberry", animal = "marmot")
+```
+
+
